@@ -14,6 +14,18 @@ import { createVuetify } from 'vuetify'
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
   theme: {
-    defaultTheme: 'dark',
+    defaultTheme: 'light',
+    themes: {
+      light: {
+        colors: {
+          // Define light theme colors here
+        },
+      },
+      dark: {
+        colors: {
+          // Define dark theme colors here
+        },
+      },
+    },
   },
 })
